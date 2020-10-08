@@ -1,0 +1,22 @@
+body {
+  box-sizing: border-box;
+}
+.body-wrapper {
+  max-width: 1360px;
+  margin: 0 auto;
+}
+.form-container {
+  max-width: 660px;
+  margin: 6rem auto;
+  border: 1px solid grey;
+  border-radius: 5%;
+  padding: 3rem;
+  h1 {
+    margin: 1em 0 3rem;
+    font-size: 2rem;
+    color: #007bff;
+  }
+  button {
+    margin-top: 1rem;
+  }
+}
