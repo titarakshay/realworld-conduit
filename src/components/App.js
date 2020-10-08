@@ -8,6 +8,7 @@ import LoginPage from "./LoginPage";
 import SignupPage from "./SignupPage";
 import Header from "./Header";
 import UserPage from "./UserPage";
+import UserHome from "./UserHome";
 
 function APP() {
   const [isLogged, setisLogged] = useState(false);
@@ -22,6 +23,7 @@ function APP() {
         <Header isLogged={isLogged} setisLogged={setisLogged} />
         <Switch>
           <Route exact path="/" component={Homepage} />
+          <Route exact path="/userhome" component={UserHome} />
           <Route
             exact
             path="/login"

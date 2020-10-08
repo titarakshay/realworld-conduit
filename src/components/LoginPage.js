@@ -27,7 +27,7 @@ function LoginPage(props) {
       .then(({ user }) => {
         user && localStorage.setItem("authToken", user.token);
         props.setisLogged(true);
-        props.history.push("/");
+        props.history.push("/userhome");
       })
       .catch((error) => console.log(error, "error is here"));
   }
