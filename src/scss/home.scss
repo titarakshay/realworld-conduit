@@ -1,0 +1,11 @@
+.articles-container {
+  display: grid;
+  width: 70%;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 1rem;
+}
+.homepage-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  // align-items: center;
+}

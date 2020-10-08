@@ -1,0 +1,26 @@
+/* header css */
+.link {
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: baseline;
+}
+.nav-links {
+  margin-right: 8px;
+  color: #b7b7cf;
+}
+.nav-links:hover {
+  color: rgb(48, 48, 48);
+  cursor: pointer;
+}
+.active {
+  color: #007bff;
+}
